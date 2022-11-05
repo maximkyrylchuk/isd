@@ -5,7 +5,7 @@ import pathlib
 AWS_REGION = "us-east-1"
 S3_BUCKET_NAME = "maksimboto3test"
 BASE_DIR = pathlib.Path(__file__).parent.resolve()
-x = r"./currency.txt"
+x = r".//currency.txt"
 
 
 from lib.currency import get_currency
